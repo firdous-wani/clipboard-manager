@@ -1,0 +1,52 @@
+{
+  "name": "clipboard-manager",
+  "version": "1.0.0",
+  "description": "A sleek clipboard manager for macOS",
+  "author": "Firdous Wani",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "pack": "electron-builder --dir"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firdous-wani/clipboard-manager.git"
+  },
+  "build": {
+    "appId": "com.clipboard.manager",
+    "productName": "Clipboard Manager",
+    "mac": {
+      "category": "public.app-category.utilities",
+      "icon": "assets/icon.icns",
+      "publish": [
+        {
+          "provider": "github",
+          "owner": "firdous-wani",
+          "repo": "clipboard-manager"
+        }
+      ]
+    },
+    "dmg": {
+      "contents": [
+        {
+          "x": 130,
+          "y": 220
+        },
+        {
+          "x": 410,
+          "y": 220,
+          "type": "link",
+          "path": "/Applications"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "electron": "^28.3.3",
+    "electron-builder": "^24.13.3"
+  },
+  "dependencies": {
+    "electron-updater": "^6.3.9"
+  }
+}
