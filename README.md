@@ -35,8 +35,9 @@ A lightweight and professional clipboard management app for macOS designed to st
 3. **Launch the App**: Open it from your Applications folder or use the global shortcut `Cmd + Shift + V`.
 
 ## Screenshots
-<img width="1001" alt="Screenshot 2024-12-20 at 12 11 52 AM" src="https://github.com/user-attachments/assets/e57b67f8-873b-4d4a-b04a-072bc1e9e2d6" />
-  
+  <img width="1011" alt="Screenshot 2024-12-20 at 12 39 22 PM" src="https://github.com/user-attachments/assets/938a5797-af1f-41b5-8aa4-dd6872847910" />
+<img width="554" alt="Screenshot 2024-12-20 at 12 40 02 PM" src="https://github.com/user-attachments/assets/a1735e38-39e9-4a6f-a991-601270bd3230" />
+
 
 
 ## Contributing
